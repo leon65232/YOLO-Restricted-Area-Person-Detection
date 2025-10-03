@@ -1,0 +1,8 @@
+ultralytics
+streamlit==1.40
+opencv-python-headless
+av
+streamlit_webrtc
+torch
+torchvision
+streamlit-drawable-canvas
