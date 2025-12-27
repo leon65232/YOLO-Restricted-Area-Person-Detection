@@ -11,7 +11,7 @@ import tempfile
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-st.title("👀 YOLOv11 Person Detection")
+st.title("👀 YOLOv8 Person Detection")
 st.write(f"⚡ This is being run on **{device.upper()}**")
 
 
@@ -27,7 +27,7 @@ source_option = st.selectbox(
     on_change=reset_settings
 )
 
-MODEL_PATH = "yolo11n.pt" 
+MODEL_PATH = "yolov8n_Trained.pt" 
 
 @st.cache_resource
 def load_model():
